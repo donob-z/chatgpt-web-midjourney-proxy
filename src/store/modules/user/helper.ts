@@ -18,7 +18,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://www.hobalab.com/website_new/static/picture/logo-1.png',
+      avatar: 'https://www.hobalab.com/logo.jpg',
       name:  t('mjset.sysname'),//'HOBA AI TOOLBOX',
       description: 'HOBA AI TOOLBOX',
     },
